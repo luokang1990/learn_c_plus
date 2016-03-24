@@ -3,7 +3,7 @@
 -------------------------------------------------------*/
 
 #ifndef FINAIDAWARD
-#define FINAIDAWAED
+#define FINAIDAWARD
 
 # include <string>
 class FinancialAidAward
@@ -14,9 +14,10 @@ class FinancialAidAward
    double getAmount() const;
    string getSource() const;
    void display() const;
-   viod setAmount(double newAmount);
+   void setAmount(double newAmount);
    void setSource(string newSource);
  private:
    string source;
    double amount;
-}
+};
+#endif
